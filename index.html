@@ -14,14 +14,14 @@
   <div class="decor-dots"></div>
   <div class="decor-wave"></div>
 
-  <div class="header">
+  <header class="header">
     <h1 class="title">
       Welcome to the Age Calculator Application
     </h1>
-  </div>
+  </header>
 
-  <div class="form-container">
-    <form class="form">
+  <main class="form-container">
+    <form class="form" id="ageForm">
       <table class="input-table">
         <thead>
           <tr class="table-header">
@@ -48,17 +48,17 @@
         </tbody>
       </table>
 
-      <div class="button" id="calculateButton" role="button" aria-label="Calculate Age">
+      <button type="button" class="button" id="calculateButton" aria-label="Calculate Age">
         <img src="./assets/images/icon-arrow.svg" alt="Calculate Age" class="img-button" />
-      </div>
+      </button>
     </form>
-  </div>
+  </main>
 
-  <div class="results">
+  <section class="results">
     <label id="years" class="result-label">-- years</label>
     <label id="months" class="result-label">-- months</label>
     <label id="days" class="result-label">-- days</label>
-  </div>
+  </section>
 
   <script src="./js/main.js"></script>
 </body>
